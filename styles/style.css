@@ -8,11 +8,11 @@ body{
   background-color: #f0ffff;
 }
 
-#page-home{
-  height: 100vh;
-  background: url("../assets/home-background.svg") no-repeat;
-  background-position: 35vw bottom;
-}
+.img-home{
+    height: 100vh;
+    background: url("../assets/home-background.svg") no-repeat;
+  }
+
 
 #page-home .content{
   width: 90%;
@@ -27,8 +27,18 @@ body{
 }
 
 .Cadastro_comunidade{
-  background-color: green;
-  margin: 25px;
-  padding: 25px;
+  background-color: rgba(0, 128, 0, 0.7);
+  margin-right: 5px;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 20px;
+  color: white;
+}
+
+.Pesquisar-comunidade{
+  background-color:  rgba(104, 52, 204, 0.7);
+  
+  padding: 15px;
+  border-radius: 20px;
   color: white;
 }
